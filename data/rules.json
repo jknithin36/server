@@ -1,0 +1,1741 @@
+[
+  {
+    "id": "fed-osha-poster-1",
+    "title": "OSHA Job Safety and Health Poster",
+    "summary": "All employers must display the OSHA poster informing workers of their rights to a safe workplace and how to report hazards.",
+    "source": "https://www.osha.gov/publications/poster",
+    "level": "federal",
+    "jurisdiction": {
+      "state": null,
+      "city": null
+    },
+    "conditions": {
+      "employeesMin": 1
+    }
+  },
+  {
+    "id": "fed-dol-posters-2",
+    "title": "Department of Labor Workplace Posters",
+    "summary": "Businesses need to post various DOL notices covering topics like minimum wage, overtime, and family medical leave to keep employees informed of their rights.",
+    "source": "https://www.dol.gov/general/topics/posters",
+    "level": "federal",
+    "jurisdiction": {
+      "state": null,
+      "city": null
+    },
+    "conditions": {
+      "employeesMin": 1
+    }
+  },
+  {
+    "id": "fed-eeo-poster-3",
+    "title": "Equal Employment Opportunity Poster",
+    "summary": "Employers must display the EEO poster to inform employees about protections against discrimination in the workplace.",
+    "source": "https://www.dol.gov/agencies/whd/posters",
+    "level": "federal",
+    "jurisdiction": {
+      "state": null,
+      "city": null
+    },
+    "conditions": {
+      "employeesMin": 1
+    }
+  },
+  {
+    "id": "fed-min-wage-notice-4",
+    "title": "Federal Minimum Wage Notice",
+    "summary": "Post the federal minimum wage notice to let employees know the current minimum pay rate and overtime rules.",
+    "source": "https://www.dol.gov/agencies/whd/posters",
+    "level": "federal",
+    "jurisdiction": {
+      "state": null,
+      "city": null
+    },
+    "conditions": {
+      "employeesMin": 1
+    }
+  },
+  {
+    "id": "fed-safety-training-5",
+    "title": "OSHA Safety Training Requirements",
+    "summary": "Provide safety training to employees on workplace hazards and how to avoid them, as required by OSHA standards.",
+    "source": "https://www.osha.gov/laws-regs",
+    "level": "federal",
+    "jurisdiction": {
+      "state": null,
+      "city": null
+    },
+    "conditions": {
+      "industry": ["Restaurant", "Retail", "Healthcare"],
+      "employeesMin": 1
+    }
+  },
+  {
+    "id": "fed-fmla-poster-6",
+    "title": "Family and Medical Leave Act Poster",
+    "summary": "Display the FMLA poster to explain employees' rights to unpaid leave for family or medical reasons.",
+    "source": "https://www.dol.gov/agencies/whd/posters",
+    "level": "federal",
+    "jurisdiction": {
+      "state": null,
+      "city": null
+    },
+    "conditions": {
+      "employeesMin": 50
+    }
+  },
+  {
+    "id": "fed-userra-poster-7",
+    "title": "USERRA Military Leave Poster",
+    "summary": "Post the USERRA notice to inform employees of their rights regarding military service and job protection.",
+    "source": "https://www.dol.gov/general/topics/posters",
+    "level": "federal",
+    "jurisdiction": {
+      "state": null,
+      "city": null
+    },
+    "conditions": {
+      "employeesMin": 1
+    }
+  },
+  {
+    "id": "fed-polygraph-poster-8",
+    "title": "Employee Polygraph Protection Act Poster",
+    "summary": "Display this poster to let employees know they can't be required to take lie detector tests in most cases.",
+    "source": "https://www.dol.gov/agencies/whd/posters",
+    "level": "federal",
+    "jurisdiction": {
+      "state": null,
+      "city": null
+    },
+    "conditions": {
+      "employeesMin": 1
+    }
+  },
+  {
+    "id": "fed-tax-ein-9",
+    "title": "Obtain Employer Identification Number",
+    "summary": "All businesses with employees must get an EIN from the IRS for tax purposes and reporting.",
+    "source": "https://www.irs.gov/",
+    "level": "federal",
+    "jurisdiction": {
+      "state": null,
+      "city": null
+    },
+    "conditions": {
+      "employeesMin": 1
+    }
+  },
+  {
+    "id": "fed-child-labor-10",
+    "title": "Child Labor Laws Notice",
+    "summary": "Post information on federal child labor laws to ensure minors are not employed in hazardous jobs or excessive hours.",
+    "source": "https://www.dol.gov/agencies/whd/posters",
+    "level": "federal",
+    "jurisdiction": {
+      "state": null,
+      "city": null
+    },
+    "conditions": {
+      "industry": ["Restaurant", "Retail"]
+    }
+  },
+  {
+    "id": "fed-osha-gen-duty-11",
+    "title": "OSHA General Duty Clause",
+    "summary": "Maintain a workplace free from serious recognized hazards, even if no specific standard applies.",
+    "source": "https://www.osha.gov/laws-regs",
+    "level": "federal",
+    "jurisdiction": {
+      "state": null,
+      "city": null
+    },
+    "conditions": {
+      "employeesMin": 1
+    }
+  },
+  {
+    "id": "fed-know-your-rights-12",
+    "title": "Know Your Rights Poster Update",
+    "summary": "Update the EEO poster to the new 'Know Your Rights' version as required by recent executive orders.",
+    "source": "https://www.eeoc.gov/poster",
+    "level": "federal",
+    "jurisdiction": {
+      "state": null,
+      "city": null
+    },
+    "conditions": {
+      "employeesMin": 1
+    }
+  },
+  {
+    "id": "fed-nlra-poster-13",
+    "title": "National Labor Relations Act Poster",
+    "summary": "Inform employees of their rights to unionize and engage in collective bargaining.",
+    "source": "https://www.nlrb.gov/about-nlrb/rights-we-protect/your-rights/nlra-poster",
+    "level": "federal",
+    "jurisdiction": {
+      "state": null,
+      "city": null
+    },
+    "conditions": {
+      "employeesMin": 1
+    }
+  },
+  {
+    "id": "fed-osha-records-14",
+    "title": "OSHA Recordkeeping Requirements",
+    "summary": "Keep records of work-related injuries and illnesses and post annual summaries.",
+    "source": "https://www.osha.gov/laws-regs",
+    "level": "federal",
+    "jurisdiction": {
+      "state": null,
+      "city": null
+    },
+    "conditions": {
+      "employeesMin": 11
+    }
+  },
+  {
+    "id": "fed-fed-tax-basics-15",
+    "title": "Federal Tax Withholding Basics",
+    "summary": "Withhold federal income taxes from employee wages and remit to the IRS.",
+    "source": "https://www.irs.gov/",
+    "level": "federal",
+    "jurisdiction": {
+      "state": null,
+      "city": null
+    },
+    "conditions": {
+      "employeesMin": 1
+    }
+  },
+  {
+    "id": "fed-license-basics-16",
+    "title": "Federal Business License if Applicable",
+    "summary": "Obtain federal licenses for regulated industries like alcohol or firearms sales.",
+    "source": "https://www.sba.gov/business-guide/launch-your-business/apply-licenses-permits",
+    "level": "federal",
+    "jurisdiction": {
+      "state": null,
+      "city": null
+    },
+    "conditions": {
+      "requiresAlcohol": true
+    }
+  },
+  {
+    "id": "fed-safety-posters-17",
+    "title": "Additional OSHA Safety Posters",
+    "summary": "Display industry-specific safety posters if required by OSHA regulations.",
+    "source": "https://www.osha.gov/publications/bytopic/osha-posters",
+    "level": "federal",
+    "jurisdiction": {
+      "state": null,
+      "city": null
+    },
+    "conditions": {
+      "industry": ["Healthcare", "Salon"]
+    }
+  },
+  {
+    "id": "fed-labor-basics-18",
+    "title": "Federal Overtime Rules Notice",
+    "summary": "Inform employees about overtime pay requirements under federal law.",
+    "source": "https://www.dol.gov/agencies/whd/posters",
+    "level": "federal",
+    "jurisdiction": {
+      "state": null,
+      "city": null
+    },
+    "conditions": {
+      "employeesMin": 1
+    }
+  },
+  {
+    "id": "ny-paid-sick-leave-1",
+    "title": "New York Paid Sick Leave",
+    "summary": "Provide up to 40 or 56 hours of paid sick leave per year depending on business size to allow employees time off for health needs.",
+    "source": "https://www.ny.gov/new-york-paid-sick-leave/new-york-paid-sick-leave",
+    "level": "state",
+    "jurisdiction": {
+      "state": "NY",
+      "city": null
+    },
+    "conditions": {
+      "employeesMin": 5
+    }
+  },
+  {
+    "id": "ny-labor-posters-2",
+    "title": "New York Labor Law Posters",
+    "summary": "Display state-required posters on minimum wage, discrimination, and workers' rights in the workplace.",
+    "source": "https://dol.ny.gov/posting-requirements",
+    "level": "state",
+    "jurisdiction": {
+      "state": "NY",
+      "city": null
+    },
+    "conditions": {
+      "employeesMin": 1
+    }
+  },
+  {
+    "id": "ny-sales-tax-reg-3",
+    "title": "Sales Tax Vendor Registration",
+    "summary": "Register for a sales tax certificate if your business sells taxable goods or services in New York.",
+    "source": "https://www.tax.ny.gov/bus/st/stidx.htm",
+    "level": "state",
+    "jurisdiction": {
+      "state": "NY",
+      "city": null
+    },
+    "conditions": {
+      "industry": ["Retail", "E-commerce"]
+    }
+  },
+  {
+    "id": "ny-alcohol-on-premise-4",
+    "title": "On-Premise Alcohol License",
+    "summary": "Get a license to sell alcohol for consumption on your premises like a restaurant or bar.",
+    "source": "https://sla.ny.gov/on-premises-licenses",
+    "level": "state",
+    "jurisdiction": {
+      "state": "NY",
+      "city": null
+    },
+    "conditions": {
+      "requiresAlcohol": true,
+      "industry": ["Restaurant"],
+      "alcoholSalesContext": ["on-premise"]
+    }
+  },
+  {
+    "id": "ny-alcohol-off-premise-5",
+    "title": "Off-Premise Alcohol License",
+    "summary": "Obtain a license to sell alcohol for consumption off your premises, such as in a liquor store.",
+    "source": "https://sla.ny.gov/off-premises-licenses",
+    "level": "state",
+    "jurisdiction": {
+      "state": "NY",
+      "city": null
+    },
+    "conditions": {
+      "requiresAlcohol": true,
+      "industry": ["Retail"],
+      "alcoholSalesContext": ["off-premise"]
+    }
+  },
+  {
+    "id": "ny-food-permits-6",
+    "title": "Food Service Establishment Permit",
+    "summary": "Apply for a permit to operate a food business ensuring compliance with health and safety standards.",
+    "source": "https://agriculture.ny.gov/food-business-licensing",
+    "level": "state",
+    "jurisdiction": {
+      "state": "NY",
+      "city": null
+    },
+    "conditions": {
+      "requiresFood": true,
+      "industry": ["Restaurant", "Daycare"]
+    }
+  },
+  {
+    "id": "ny-safety-health-poster-7",
+    "title": "Job Safety and Health Protection Poster",
+    "summary": "Post the state safety and health poster to inform workers of their rights to a safe environment.",
+    "source": "https://dol.ny.gov/posting-requirements",
+    "level": "state",
+    "jurisdiction": {
+      "state": "NY",
+      "city": null
+    },
+    "conditions": {
+      "employeesMin": 1
+    }
+  },
+  {
+    "id": "ny-min-wage-poster-8",
+    "title": "New York Minimum Wage Poster",
+    "summary": "Display the current minimum wage rates for your region in New York.",
+    "source": "https://dol.ny.gov/posting-requirements",
+    "level": "state",
+    "jurisdiction": {
+      "state": "NY",
+      "city": null
+    },
+    "conditions": {
+      "employeesMin": 1
+    }
+  },
+  {
+    "id": "ny-workers-comp-9",
+    "title": "Workers' Compensation Notice",
+    "summary": "Provide notice of workers' compensation coverage to employees.",
+    "source": "https://www.wcb.ny.gov/",
+    "level": "state",
+    "jurisdiction": {
+      "state": "NY",
+      "city": null
+    },
+    "conditions": {
+      "employeesMin": 1
+    }
+  },
+  {
+    "id": "ny-unemployment-ins-10",
+    "title": "Unemployment Insurance Poster",
+    "summary": "Post information on unemployment benefits for employees who lose their jobs.",
+    "source": "https://dol.ny.gov/posting-requirements",
+    "level": "state",
+    "jurisdiction": {
+      "state": "NY",
+      "city": null
+    },
+    "conditions": {
+      "employeesMin": 1
+    }
+  },
+  {
+    "id": "ny-food-handler-cert-11",
+    "title": "Food Handler Certification",
+    "summary": "Ensure food handlers complete certification for safe food preparation.",
+    "source": "https://www.health.ny.gov/environmental/indoors/food_safety/",
+    "level": "state",
+    "jurisdiction": {
+      "state": "NY",
+      "city": null
+    },
+    "conditions": {
+      "requiresFood": true,
+      "onSitePrep": true
+    }
+  },
+  {
+    "id": "ny-alcohol-training-12",
+    "title": "Alcohol Awareness Training",
+    "summary": "Train staff on responsible alcohol service if selling alcohol.",
+    "source": "https://sla.ny.gov/",
+    "level": "state",
+    "jurisdiction": {
+      "state": "NY",
+      "city": null
+    },
+    "conditions": {
+      "requiresAlcohol": true
+    }
+  },
+  {
+    "id": "ny-sales-tax-food-13",
+    "title": "Sales Tax on Food and Drink",
+    "summary": "Collect and remit sales tax on sales of food and beverages.",
+    "source": "https://www.law.cornell.edu/regulations/new-york/20-NYCRR-527.8",
+    "level": "state",
+    "jurisdiction": {
+      "state": "NY",
+      "city": null
+    },
+    "conditions": {
+      "requiresFood": true
+    }
+  },
+  {
+    "id": "ny-event-alcohol-permit-14",
+    "title": "Temporary Alcohol Permit for Events",
+    "summary": "Get a permit for serving alcohol at off-premise events.",
+    "source": "https://sla.ny.gov/permits/special-event-permits",
+    "level": "state",
+    "jurisdiction": {
+      "state": "NY",
+      "city": null
+    },
+    "conditions": {
+      "requiresAlcohol": true
+    }
+  },
+  {
+    "id": "ny-retail-food-store-15",
+    "title": "Retail Food Store License",
+    "summary": "License required for stores selling food for off-premise consumption.",
+    "source": "https://agriculture.ny.gov/food-business-licensing",
+    "level": "state",
+    "jurisdiction": {
+      "state": "NY",
+      "city": null
+    },
+    "conditions": {
+      "industry": ["Retail"]
+    }
+  },
+  {
+    "id": "ny-sanitary-code-16",
+    "title": "Compliance with Sanitary Code",
+    "summary": "Follow state sanitary codes for food establishments to prevent health risks.",
+    "source": "https://www.suffolkcountyny.gov/Departments/Health-Services/Public-Health-Protection/Food-Protection",
+    "level": "state",
+    "jurisdiction": {
+      "state": "NY",
+      "city": null
+    },
+    "conditions": {
+      "requiresFood": true
+    }
+  },
+  {
+    "id": "ny-digital-posters-17",
+    "title": "Electronic Labor Law Posters",
+    "summary": "Make digital copies of required posters available on your website.",
+    "source": "https://dol.ny.gov/posting-requirements",
+    "level": "state",
+    "jurisdiction": {
+      "state": "NY",
+      "city": null
+    },
+    "conditions": {
+      "employeesMin": 1
+    }
+  },
+  {
+    "id": "ny-catering-license-18",
+    "title": "Off-Premises Catering License",
+    "summary": "Obtain license for catering services at off-site locations.",
+    "source": "https://thedanowgroup.com/new-year-new-legal-updates/",
+    "level": "state",
+    "jurisdiction": {
+      "state": "NY",
+      "city": null
+    },
+    "conditions": {
+      "industry": ["Restaurant"]
+    }
+  },
+  {
+    "id": "ny-food-safety-inspection-19",
+    "title": "Food Safety Inspections",
+    "summary": "Prepare for regular inspections to ensure compliance with food safety rules.",
+    "source": "https://scholarsarchive.library.albany.edu/cgi/viewcontent.cgi?article=3522&context=legacy-etd",
+    "level": "state",
+    "jurisdiction": {
+      "state": "NY",
+      "city": null
+    },
+    "conditions": {
+      "requiresFood": true
+    }
+  },
+  {
+    "id": "ny-industry-wage-20",
+    "title": "Industry-Specific Wage Orders",
+    "summary": "Follow wage and hour rules specific to industries like hospitality.",
+    "source": "https://www.govdocs.com/complying-with-industry-specific-minimum-wage-paid-sick-leave-and-labor-law-poster-requirements/",
+    "level": "state",
+    "jurisdiction": {
+      "state": "NY",
+      "city": null
+    },
+    "conditions": {
+      "industry": ["Restaurant", "Retail"]
+    }
+  },
+  {
+    "id": "ny-alcohol-reg-overview-21",
+    "title": "Alcohol Regulation Overview",
+    "summary": "Understand and comply with state rules for alcohol beverage businesses.",
+    "source": "https://www.srclawoffices.com/wp-content/uploads/2020/02/Alcohol-Regulation-NY-Overview-w-022-4366.pdf",
+    "level": "state",
+    "jurisdiction": {
+      "state": "NY",
+      "city": null
+    },
+    "conditions": {
+      "requiresAlcohol": true
+    }
+  },
+  {
+    "id": "ny-sla-changes-22",
+    "title": "SLA Licensing Changes",
+    "summary": "Stay updated on changes to liquor license application procedures.",
+    "source": "https://thedanowgroup.com/more-licensing-and-application-changes-at-the-sla/",
+    "level": "state",
+    "jurisdiction": {
+      "state": "NY",
+      "city": null
+    },
+    "conditions": {
+      "requiresAlcohol": true
+    }
+  },
+  {
+    "id": "ny-workplace-laws-23",
+    "title": "Workplace Laws for Employers",
+    "summary": "Provide employees with required workplace law posters by specified dates.",
+    "source": "https://www.nyc.gov/site/dca/businesses/workplace-laws-for-employers.page",
+    "level": "city",
+    "jurisdiction": {
+      "state": "NY",
+      "city": "New York City"
+    },
+    "conditions": {
+      "employeesMin": 1
+    }
+  },
+  {
+    "id": "ny-food-sources-24",
+    "title": "Food from Approved Sources",
+    "summary": "Ensure all food is obtained from approved safe sources.",
+    "source": "https://agriculture.ny.gov/food-safety/rules-and-regulations-relating-retail-food-stores",
+    "level": "state",
+    "jurisdiction": {
+      "state": "NY",
+      "city": null
+    },
+    "conditions": {
+      "requiresFood": true
+    }
+  },
+  {
+    "id": "ny-paid-sick-notice-25",
+    "title": "Paid Sick Leave Notice",
+    "summary": "Notify employees of their paid sick leave entitlements based on company size.",
+    "source": "https://www.ny.gov/new-york-paid-sick-leave/new-york-paid-sick-leave",
+    "level": "state",
+    "jurisdiction": {
+      "state": "NY",
+      "city": null
+    },
+    "conditions": {
+      "employeesMin": 1
+    }
+  },
+  {
+    "id": "ca-cpra-basics-1",
+    "title": "CPRA Privacy Rights",
+    "summary": "Inform consumers about their privacy rights under the California Privacy Rights Act and handle data accordingly.",
+    "source": "https://oag.ca.gov/privacy/ccpa",
+    "level": "state",
+    "jurisdiction": {
+      "state": "CA",
+      "city": null
+    },
+    "conditions": {
+      "industry": ["E-commerce", "Software"]
+    }
+  },
+  {
+    "id": "ca-ccpa-compliance-2",
+    "title": "CCPA Data Protection",
+    "summary": "Comply with CCPA by providing notices and responding to consumer requests about personal information.",
+    "source": "https://oag.ca.gov/privacy/ccpa",
+    "level": "state",
+    "jurisdiction": {
+      "state": "CA",
+      "city": null
+    },
+    "conditions": {
+      "industry": ["Retail", "Software"]
+    }
+  },
+  {
+    "id": "ca-meal-breaks-3",
+    "title": "Meal Break Requirements",
+    "summary": "Provide a 30-minute unpaid meal break for shifts over 5 hours and a second for shifts over 10 hours.",
+    "source": "https://www.dir.ca.gov/dlse/FAQ_MealPeriods.html",
+    "level": "state",
+    "jurisdiction": {
+      "state": "CA",
+      "city": null
+    },
+    "conditions": {
+      "employeesMin": 1
+    }
+  },
+  {
+    "id": "ca-rest-breaks-4",
+    "title": "Rest Break Rules",
+    "summary": "Allow 10-minute paid rest breaks for every 4 hours worked.",
+    "source": "https://www.calchamber.com/california-labor-law/meal-and-rest-breaks",
+    "level": "state",
+    "jurisdiction": {
+      "state": "CA",
+      "city": null
+    },
+    "conditions": {
+      "employeesMin": 1
+    }
+  },
+  {
+    "id": "ca-sellers-permit-5",
+    "title": "Seller’s Permit",
+    "summary": "Register for a seller's permit if selling tangible goods subject to sales tax.",
+    "source": "https://www.cdtfa.ca.gov/taxes-and-fees/sptfpgm.htm",
+    "level": "state",
+    "jurisdiction": {
+      "state": "CA",
+      "city": null
+    },
+    "conditions": {
+      "industry": ["Retail", "E-commerce"]
+    }
+  },
+  {
+    "id": "ca-alcohol-license-6",
+    "title": "Alcohol Beverage License",
+    "summary": "Apply for the appropriate type of alcohol license based on on or off-premise sales.",
+    "source": "https://www.abc.ca.gov/licensing/license-types/",
+    "level": "state",
+    "jurisdiction": {
+      "state": "CA",
+      "city": null
+    },
+    "conditions": {
+      "requiresAlcohol": true,
+      "alcoholSalesContext": ["on-premise", "off-premise"]
+    }
+  },
+  {
+    "id": "ca-food-handling-7",
+    "title": "Food Handler Card",
+    "summary": "Ensure employees handling food obtain a food handler card after training.",
+    "source": "https://www.dir.ca.gov/dlse/SB-476-Food-Handler-Cards.html",
+    "level": "state",
+    "jurisdiction": {
+      "state": "CA",
+      "city": null
+    },
+    "conditions": {
+      "requiresFood": true
+    }
+  },
+  {
+    "id": "ca-meal-waiver-8",
+    "title": "Meal Break Waiver",
+    "summary": "Allow mutual waiver of meal breaks for shifts of 6 hours or less.",
+    "source": "https://www.calchamber.com/california-labor-law/meal-and-rest-breaks",
+    "level": "state",
+    "jurisdiction": {
+      "state": "CA",
+      "city": null
+    },
+    "conditions": {
+      "employeesMin": 1
+    }
+  },
+  {
+    "id": "ca-rest-period-9",
+    "title": "Right to Rest Periods",
+    "summary": "Provide rest periods between shifts for hospitality workers under Fair Workweek laws.",
+    "source": "https://resources.harri.com/role/operations/complying-with-california-right-to-rest-and-meal-break-laws/",
+    "level": "state",
+    "jurisdiction": {
+      "state": "CA",
+      "city": null
+    },
+    "conditions": {
+      "industry": ["Restaurant"]
+    }
+  },
+  {
+    "id": "ca-food-permit-10",
+    "title": "Food Facility Permit",
+    "summary": "Obtain a health permit for any food business from the local health department.",
+    "source": "https://cloudkitchens.com/blog/food-licenses-permits-california/",
+    "level": "state",
+    "jurisdiction": {
+      "state": "CA",
+      "city": null
+    },
+    "conditions": {
+      "requiresFood": true
+    }
+  },
+  {
+    "id": "ca-abc-food-service-11",
+    "title": "Food Service with Alcohol",
+    "summary": "Serve bona fide meals with alcohol sales in licensed establishments.",
+    "source": "https://www.abc.ca.gov/education/merchant-education/on-sale-licensee-informational-guide/food-service/",
+    "level": "state",
+    "jurisdiction": {
+      "state": "CA",
+      "city": null
+    },
+    "conditions": {
+      "requiresAlcohol": true,
+      "requiresFood": true,
+      "alcoholSalesContext": ["on-premise"]
+    }
+  },
+  {
+    "id": "ca-employment-laws-12",
+    "title": "Restaurant Employment Laws",
+    "summary": "Follow specific labor laws for restaurants including breaks and wages.",
+    "source": "https://www.dir.ca.gov/dlse/",
+    "level": "state",
+    "jurisdiction": {
+      "state": "CA",
+      "city": null
+    },
+    "conditions": {
+      "industry": ["Restaurant"]
+    }
+  },
+  {
+    "id": "ca-food-manager-cert-13",
+    "title": "Food Manager Certification",
+    "summary": "Have at least one certified food manager on staff for food facilities.",
+    "source": "https://www.cdph.ca.gov/Programs/CEH/DFDCS/Pages/FDBPrograms/FoodSafetyProgram.aspx",
+    "level": "state",
+    "jurisdiction": {
+      "state": "CA",
+      "city": null
+    },
+    "conditions": {
+      "requiresFood": true,
+      "onSitePrep": true
+    }
+  },
+  {
+    "id": "ca-retail-food-code-14",
+    "title": "California Retail Food Code Compliance",
+    "summary": "Adhere to the state food code for safe food handling and facility standards.",
+    "source": "https://www.cdph.ca.gov/Programs/CEH/DFDCS/Pages/FoodSafetyProgram/CalCode.aspx",
+    "level": "state",
+    "jurisdiction": {
+      "state": "CA",
+      "city": null
+    },
+    "conditions": {
+      "requiresFood": true
+    }
+  },
+  {
+    "id": "ca-industry-exceptions-15",
+    "title": "Industry-Specific Break Exceptions",
+    "summary": "Note limited exceptions to meal and rest break rules for certain industries.",
+    "source": "https://calchamberalert.com/2018/11/30/state-mealrest-break-rules-include-limited-industry-specific-exceptions/",
+    "level": "state",
+    "jurisdiction": {
+      "state": "CA",
+      "city": null
+    },
+    "conditions": {
+      "industry": ["Healthcare"]
+    }
+  },
+  {
+    "id": "ca-business-checklist-16",
+    "title": "Starting Business Legal Checklist",
+    "summary": "Follow legal steps including permits and registrations when starting a business.",
+    "source": "https://www.rokitalaw.com/blog/starting-a-business-in-california-heres-your-2025-legal-checklist/",
+    "level": "state",
+    "jurisdiction": {
+      "state": "CA",
+      "city": null
+    },
+    "conditions": {}
+  },
+  {
+    "id": "ca-hospitality-breaks-17",
+    "title": "Hospitality Break Compliance",
+    "summary": "Ensure proper scheduling of meal and rest breaks for hospitality staff.",
+    "source": "https://resources.harri.com/blog/california-meal-and-rest-break-compliance/",
+    "level": "state",
+    "jurisdiction": {
+      "state": "CA",
+      "city": null
+    },
+    "conditions": {
+      "industry": ["Restaurant"]
+    }
+  },
+  {
+    "id": "ca-food-licenses-18",
+    "title": "Food Licenses for Serving",
+    "summary": "Get necessary certifications depending on what food you serve.",
+    "source": "https://www.cdph.ca.gov/Programs/CEH/DFDCS/Pages/FDBPrograms/FoodSafetyProgram.aspx",
+    "level": "state",
+    "jurisdiction": {
+      "state": "CA",
+      "city": null
+    },
+    "conditions": {
+      "requiresFood": true
+    }
+  },
+  {
+    "id": "ca-restaurant-permits-19",
+    "title": "Restaurant Operating Permits",
+    "summary": "Secure all required permits like health and alcohol for restaurant operations.",
+    "source": "https://www.cdph.ca.gov/Programs/CEH/DFDCS/Pages/FoodSafetyProgram/Local-Environmental-Health-Departments.aspx",
+    "level": "state",
+    "jurisdiction": {
+      "state": "CA",
+      "city": null
+    },
+    "conditions": {
+      "industry": ["Restaurant"]
+    }
+  },
+  {
+    "id": "ca-break-law-guide-20",
+    "title": "Break Law Ultimate Guide",
+    "summary": "Understand detailed rules for providing breaks without penalties.",
+    "source": "https://timeero.com/resources-page/california-break-law",
+    "level": "state",
+    "jurisdiction": {
+      "state": "CA",
+      "city": null
+    },
+    "conditions": {
+      "employeesMin": 1
+    }
+  },
+  {
+    "id": "ca-food-truck-permits-21",
+    "title": "Food Truck Licenses",
+    "summary": "Obtain permits for operating food trucks or bars.",
+    "source": "https://www.cdph.ca.gov/Programs/CEH/DFDCS/Pages/FoodSafetyProgram/Mobile-Food-Facilities.aspx",
+    "level": "state",
+    "jurisdiction": {
+      "state": "CA",
+      "city": null
+    },
+    "conditions": {
+      "industry": ["Restaurant"]
+    }
+  },
+  {
+    "id": "ca-employer-guide-breaks-22",
+    "title": "Employer Guide to Breaks",
+    "summary": "Guide for employers on complying with meal and rest break laws.",
+    "source": "https://www.dir.ca.gov/dlse/FAQ_MealPeriods.htm",
+    "level": "state",
+    "jurisdiction": {
+      "state": "CA",
+      "city": null
+    },
+    "conditions": {
+      "employeesMin": 1
+    }
+  },
+  {
+    "id": "ca-food-safety-cert-23",
+    "title": "Food Safety Certifications",
+    "summary": "Get certifications for sellers, handlers, and managers in food industry.",
+    "source": "https://www.foodhandlerclasses.com/news/Navigating-Californias-Food-Beverage-Industry_-Certifications-for-Sellers-Handlers-and-Managers",
+    "level": "state",
+    "jurisdiction": {
+      "state": "CA",
+      "city": null
+    },
+    "conditions": {
+      "requiresFood": true
+    }
+  },
+  {
+    "id": "ca-sb476-handler-24",
+    "title": "SB 476 Food Handler Requirements",
+    "summary": "Cover costs and time for employees to get food handler cards.",
+    "source": "https://www.californiaemploymentlawreport.com/2024/12/reminder-for-employers-compliance-with-sb-476-food-handler-card-requirements/",
+    "level": "state",
+    "jurisdiction": {
+      "state": "CA",
+      "city": null
+    },
+    "conditions": {
+      "requiresFood": true
+    }
+  },
+  {
+    "id": "ca-retail-food-code-25",
+    "title": "Retail Food Code",
+    "summary": "Comply with the California Retail Food Code for all food operations.",
+    "source": "https://www.ochealthinfo.com/sites/healthcare/files/2024-01/CalCode%20effective%20January%202024%20Digital.pdf",
+    "level": "state",
+    "jurisdiction": {
+      "state": "CA",
+      "city": null
+    },
+    "conditions": {
+      "requiresFood": true
+    }
+  },
+  {
+    "id": "oh-workers-comp-1",
+    "title": "Ohio Workers' Compensation",
+    "summary": "Provide workers' compensation coverage and display the required poster.",
+    "source": "https://info.bwc.ohio.gov/",
+    "level": "state",
+    "jurisdiction": {
+      "state": "OH",
+      "city": null
+    },
+    "conditions": {
+      "employeesMin": 1
+    }
+  },
+  {
+    "id": "oh-sales-tax-license-2",
+    "title": "Sales Tax License",
+    "summary": "Register for a vendor's license to collect sales tax on taxable sales.",
+    "source": "https://tax.ohio.gov/business/ohio-business-taxes/sales-and-use",
+    "level": "state",
+    "jurisdiction": {
+      "state": "OH",
+      "city": null
+    },
+    "conditions": {
+      "industry": ["Retail"]
+    }
+  },
+  {
+    "id": "oh-labor-posters-3",
+    "title": "Ohio Labor Law Posters",
+    "summary": "Display state and federal labor law posters including minimum wage and discrimination notices.",
+    "source": "https://das.ohio.gov/employee-relations/policies/labor-employment-law-posting-requirements",
+    "level": "state",
+    "jurisdiction": {
+      "state": "OH",
+      "city": null
+    },
+    "conditions": {
+      "employeesMin": 1
+    }
+  },
+  {
+    "id": "oh-food-permits-4",
+    "title": "Food Service License",
+    "summary": "Obtain a license for operating food service establishments.",
+    "source": "https://odh.ohio.gov/know-our-programs/food-safety-program/",
+    "level": "state",
+    "jurisdiction": {
+      "state": "OH",
+      "city": null
+    },
+    "conditions": {
+      "requiresFood": true
+    }
+  },
+  {
+    "id": "oh-alcohol-permits-5",
+    "title": "Alcohol Permits",
+    "summary": "Apply for liquor permits based on type of sales.",
+    "source": "https://com.ohio.gov/divisions-and-programs/liquor-control/permits",
+    "level": "state",
+    "jurisdiction": {
+      "state": "OH",
+      "city": null
+    },
+    "conditions": {
+      "requiresAlcohol": true
+    }
+  },
+  {
+    "id": "oh-minor-labor-6",
+    "title": "Minor Labor Laws Poster",
+    "summary": "Post rules on employing minors including hours and prohibited jobs.",
+    "source": "https://com.ohio.gov/education-and-training/media-center/posters/posters",
+    "level": "state",
+    "jurisdiction": {
+      "state": "OH",
+      "city": null
+    },
+    "conditions": {
+      "industry": ["Restaurant", "Retail"]
+    }
+  },
+  {
+    "id": "oh-electronic-posters-7",
+    "title": "Electronic Posting Allowed",
+    "summary": "Use digital methods to display certain labor law posters starting July 2025.",
+    "source": "https://www.govdocs.com/ohio-allows-electronic-display-of-labor-law-posters/",
+    "level": "state",
+    "jurisdiction": {
+      "state": "OH",
+      "city": null
+    },
+    "conditions": {
+      "employeesMin": 1
+    }
+  },
+  {
+    "id": "oh-unemployment-poster-8",
+    "title": "Unemployment Compensation Poster",
+    "summary": "Display notice of unemployment benefits.",
+    "source": "https://das.ohio.gov/employee-relations/policies/labor-employment-law-posting-requirements",
+    "level": "state",
+    "jurisdiction": {
+      "state": "OH",
+      "city": null
+    },
+    "conditions": {
+      "employeesMin": 1
+    }
+  },
+  {
+    "id": "oh-min-wage-poster-9",
+    "title": "Ohio Minimum Wage Poster",
+    "summary": "Post the current state minimum wage.",
+    "source": "https://com.ohio.gov/divisions-and-programs/industrial-compliance/wage-and-hour/ohio-minimum-wage",
+    "level": "state",
+    "jurisdiction": {
+      "state": "OH",
+      "city": null
+    },
+    "conditions": {
+      "employeesMin": 1
+    }
+  },
+  {
+    "id": "oh-food-safety-code-10",
+    "title": "Ohio Uniform Food Safety Code",
+    "summary": "Comply with state food safety regulations for all food businesses.",
+    "source": "https://ccbh.net/wp-content/uploads/2016/08/OH-Uniform-Food-Safety-Code-2013-1.pdf",
+    "level": "state",
+    "jurisdiction": {
+      "state": "OH",
+      "city": null
+    },
+    "conditions": {
+      "requiresFood": true
+    }
+  },
+  {
+    "id": "oh-digital-posters-11",
+    "title": "Digital Workplace Posters",
+    "summary": "Permit use of digital posters for compliance.",
+    "source": "https://das.ohio.gov/employee-relations/policies/labor-employment-law-posting-requirements",
+    "level": "state",
+    "jurisdiction": {
+      "state": "OH",
+      "city": null
+    },
+    "conditions": {
+      "employeesMin": 1
+    }
+  },
+  {
+    "id": "oh-food-handler-cert-12",
+    "title": "Food Handler Certification",
+    "summary": "Require certification for food handlers within 30 days of hire.",
+    "source": "https://odh.ohio.gov/know-our-programs/food-safety-program/food-safety",
+    "level": "state",
+    "jurisdiction": {
+      "state": "OH",
+      "city": null
+    },
+    "conditions": {
+      "requiresFood": true
+    }
+  },
+  {
+    "id": "oh-start-food-business-13",
+    "title": "Starting a Food Business Guide",
+    "summary": "Follow regulatory requirements when starting a food business.",
+    "source": "https://agri.ohio.gov/wps/portal/gov/oda/divisions/food-safety/resources/starting-a-food-business",
+    "level": "state",
+    "jurisdiction": {
+      "state": "OH",
+      "city": null
+    },
+    "conditions": {
+      "requiresFood": true
+    }
+  },
+  {
+    "id": "oh-food-code-guides-14",
+    "title": "Food Code Reference Guides",
+    "summary": "Use guides to understand food safety code requirements.",
+    "source": "https://odh.ohio.gov/know-our-programs/food-safety-program/Food-Code-Reference-Guides",
+    "level": "state",
+    "jurisdiction": {
+      "state": "OH",
+      "city": null
+    },
+    "conditions": {
+      "requiresFood": true
+    }
+  },
+  {
+    "id": "oh-business-licenses-15",
+    "title": "Business Licenses and Permits",
+    "summary": "Obtain necessary state licenses for your business type.",
+    "source": "https://ohio.gov/wps/portal/gov/site/jobs/resources/licenses-and-permits",
+    "level": "state",
+    "jurisdiction": {
+      "state": "OH",
+      "city": null
+    },
+    "conditions": {}
+  },
+  {
+    "id": "oh-poster-package-16",
+    "title": "State Poster Package",
+    "summary": "Use the state-provided poster package for compliance.",
+    "source": "https://das.ohio.gov/employee-relations/policies/labor-employment-law-posting-requirements",
+    "level": "state",
+    "jurisdiction": {
+      "state": "OH",
+      "city": null
+    },
+    "conditions": {
+      "employeesMin": 1
+    }
+  },
+  {
+    "id": "oh-sb33-posters-17",
+    "title": "SB 33 Electronic Posters",
+    "summary": "Allow online posting of labor law notices.",
+    "source": "https://frostbrowntodd.com/ohio-to-permit-online-posting-of-certain-required-state-labor-law-notices/",
+    "level": "state",
+    "jurisdiction": {
+      "state": "OH",
+      "city": null
+    },
+    "conditions": {
+      "employeesMin": 1
+    }
+  },
+  {
+    "id": "oh-workplace-posters-18",
+    "title": "Workplace Law Posters",
+    "summary": "Display required posters including FMLA and EEOC.",
+    "source": "https://das.ohio.gov/employee-relations/policies/labor-employment-law-posting-requirements",
+    "level": "state",
+    "jurisdiction": {
+      "state": "OH",
+      "city": null
+    },
+    "conditions": {
+      "employeesMin": 1
+    }
+  },
+  {
+    "id": "oh-law-poster-bill-19",
+    "title": "Law Poster Bill Compliance",
+    "summary": "Comply with new rules allowing digital posters.",
+    "source": "https://www.legislature.ohio.gov/",
+    "level": "state",
+    "jurisdiction": {
+      "state": "OH",
+      "city": null
+    },
+    "conditions": {
+      "employeesMin": 1
+    }
+  },
+  {
+    "id": "oh-food-facility-review-20",
+    "title": "Food Facility Plan Review",
+    "summary": "Submit plans for review before opening a food business.",
+    "source": "https://www.clevelandhealth.org/assets/documents/environment/food_safety/Food_Facility_Layout_Review_Packet.pdf",
+    "level": "city",
+    "jurisdiction": {
+      "state": "OH",
+      "city": "Cleveland"
+    },
+    "conditions": {
+      "requiresFood": true
+    }
+  },
+  {
+    "id": "oh-person-in-charge-21",
+    "title": "Person-in-Charge Requirement",
+    "summary": "Have a knowledgeable person in charge during all operating hours.",
+    "source": "https://www.columbus.gov/files/sharedassets/city/v/2/public-health/startingafoodbusinessguide.pdf",
+    "level": "city",
+    "jurisdiction": {
+      "state": "OH",
+      "city": "Columbus"
+    },
+    "conditions": {
+      "requiresFood": true
+    }
+  },
+  {
+    "id": "oh-mobile-food-22",
+    "title": "Mobile Food Vending Rules",
+    "summary": "Follow rules for operating mobile food units.",
+    "source": "https://www.municode.com/library/oh/columbus/codes/code_of_ordinances?nodeId=TIT5BURELICO_CH573MOFOVE",
+    "level": "city",
+    "jurisdiction": {
+      "state": "OH",
+      "city": "Columbus"
+    },
+    "conditions": {
+      "requiresFood": true
+    }
+  },
+  {
+    "id": "oh-retail-food-23",
+    "title": "Retail Food Establishment Regulations",
+    "summary": "Comply with standards for retail food operations.",
+    "source": "https://codes.ohio.gov/ohio-revised-code/chapter-3717",
+    "level": "state",
+    "jurisdiction": {
+      "state": "OH",
+      "city": null
+    },
+    "conditions": {
+      "requiresFood": true
+    }
+  },
+  {
+    "id": "oh-inspections-24",
+    "title": "Food Safety Inspections",
+    "summary": "Prepare for inspections of food establishments.",
+    "source": "https://www.columbus.gov/Services/Food-Protection-Program",
+    "level": "city",
+    "jurisdiction": {
+      "state": "OH",
+      "city": "Columbus"
+    },
+    "conditions": {
+      "requiresFood": true
+    }
+  },
+  {
+    "id": "oh-business-portal-25",
+    "title": "Food Business Portal",
+    "summary": "Use resources for legal compliance in food businesses.",
+    "source": "https://www.franklincountyohio.gov/Business-Development/Food-Business-Portal/Create-a-Business-Plan/Following-the-Law",
+    "level": "state",
+    "jurisdiction": {
+      "state": "OH",
+      "city": null
+    },
+    "conditions": {
+      "requiresFood": true
+    }
+  },
+  {
+    "id": "nyc-food-permit-1",
+    "title": "Food Service Establishment Permit",
+    "summary": "Get a permit to operate any food service business in NYC.",
+    "source": "https://nyc-business.nyc.gov/nycbusiness/description/food-service-establishment-permit/operation",
+    "level": "city",
+    "jurisdiction": {
+      "state": "NY",
+      "city": "New York City"
+    },
+    "conditions": {
+      "requiresFood": true
+    }
+  },
+  {
+    "id": "nyc-required-signs-2",
+    "title": "Required Signs for Food Businesses",
+    "summary": "Display mandatory signs like healthy eating posters in food establishments.",
+    "source": "https://www.nyc.gov/site/doh/business/food-operators/required-signs.page",
+    "level": "city",
+    "jurisdiction": {
+      "state": "NY",
+      "city": "New York City"
+    },
+    "conditions": {
+      "requiresFood": true
+    }
+  },
+  {
+    "id": "nyc-health-code-3",
+    "title": "NYC Health Code Article 81",
+    "summary": "Follow local health code for food preparation and establishments.",
+    "source": "https://www.nyc.gov/assets/doh/downloads/pdf/about/healthcode/health-code-article81.pdf",
+    "level": "city",
+    "jurisdiction": {
+      "state": "NY",
+      "city": "New York City"
+    },
+    "conditions": {
+      "requiresFood": true
+    }
+  },
+  {
+    "id": "nyc-food-handler-4",
+    "title": "Food Handler License",
+    "summary": "All food preparers must get a food handler's license within 30 days.",
+    "source": "https://www.nyc.gov/site/doh/business/food-operators/food-protection.page",
+    "level": "city",
+    "jurisdiction": {
+      "state": "NY",
+      "city": "New York City"
+    },
+    "conditions": {
+      "requiresFood": true
+    }
+  },
+  {
+    "id": "buffalo-food-store-license-1",
+    "title": "Food Store License",
+    "summary": "Obtain a license for operating food stores in Buffalo.",
+    "source": "https://ecode360.com/11767302",
+    "level": "city",
+    "jurisdiction": {
+      "state": "NY",
+      "city": "Buffalo"
+    },
+    "conditions": {
+      "requiresFood": true,
+      "industry": ["Retail"]
+    }
+  },
+  {
+    "id": "buffalo-business-id-sign-2",
+    "title": "Business Identification Sign",
+    "summary": "Post a sign identifying the business owner and operator.",
+    "source": "https://ecode360.com/11767277",
+    "level": "city",
+    "jurisdiction": {
+      "state": "NY",
+      "city": "Buffalo"
+    },
+    "conditions": {}
+  },
+  {
+    "id": "buffalo-mobile-food-3",
+    "title": "Mobile Food Vendor License",
+    "summary": "Get a license and follow rules for mobile food vending.",
+    "source": "https://foodsystemsplanning.ap.buffalo.edu/wp-content/uploads/sites/68/2017/06/HKHCpolicybrieflocalBuffalo_FINAL2_27_2012_4.pdf",
+    "level": "city",
+    "jurisdiction": {
+      "state": "NY",
+      "city": "Buffalo"
+    },
+    "conditions": {
+      "requiresFood": true
+    }
+  },
+  {
+    "id": "buffalo-food-handler-4",
+    "title": "Food Handler Requirements",
+    "summary": "Meet local food handler card requirements if applicable.",
+    "source": "https://www.efoodcard.com/ny/buffalo/",
+    "level": "city",
+    "jurisdiction": {
+      "state": "NY",
+      "city": "Buffalo"
+    },
+    "conditions": {
+      "requiresFood": true
+    }
+  },
+  {
+    "id": "la-food-facility-1",
+    "title": "Retail Food Facility Permit",
+    "summary": "Obtain a permit for permanent food facilities.",
+    "source": "http://publichealth.lacounty.gov/eh/inspection/retail-food-inspection-guide.htm",
+    "level": "city",
+    "jurisdiction": {
+      "state": "CA",
+      "city": "Los Angeles"
+    },
+    "conditions": {
+      "requiresFood": true
+    }
+  },
+  {
+    "id": "la-sign-permit-2",
+    "title": "Commercial Sign Permit",
+    "summary": "Get a permit for installing commercial signs.",
+    "source": "https://ladbs.org/services/core-services/plan-check-permit/sign-permits",
+    "level": "city",
+    "jurisdiction": {
+      "state": "CA",
+      "city": "Los Angeles"
+    },
+    "conditions": {}
+  },
+  {
+    "id": "la-food-establishment-3",
+    "title": "Food Establishment Regulations",
+    "summary": "Comply with building codes for food processing and sales.",
+    "source": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-177320",
+    "level": "city",
+    "jurisdiction": {
+      "state": "CA",
+      "city": "Los Angeles"
+    },
+    "conditions": {
+      "requiresFood": true
+    }
+  },
+  {
+    "id": "la-food-handlers-4",
+    "title": "Food Handlers Rules",
+    "summary": "Ensure food handlers wear proper attire and follow hygiene rules.",
+    "source": "https://library.municode.com/ca/los_angeles_county/codes/code_of_ordinances?nodeId=TIT11HESA_DIV1HECO_CH11.10FODE_11.10.130ADREAUWH",
+    "level": "city",
+    "jurisdiction": {
+      "state": "CA",
+      "city": "Los Angeles"
+    },
+    "conditions": {
+      "requiresFood": true
+    }
+  },
+  {
+    "id": "sf-food-permit-1",
+    "title": "Food Preparation Establishment Permit",
+    "summary": "Get a permit to operate food service in San Francisco.",
+    "source": "https://codelibrary.amlegal.com/codes/san_francisco/latest/sf_health/0-0-0-6575",
+    "level": "city",
+    "jurisdiction": {
+      "state": "CA",
+      "city": "San Francisco"
+    },
+    "conditions": {
+      "requiresFood": true
+    }
+  },
+  {
+    "id": "sf-sign-permit-2",
+    "title": "Sign Installation Permit",
+    "summary": "Obtain a permit for installing or changing signs.",
+    "source": "https://sfplanning.org/resource/signs",
+    "level": "city",
+    "jurisdiction": {
+      "state": "CA",
+      "city": "San Francisco"
+    },
+    "conditions": {}
+  },
+  {
+    "id": "sf-mobile-food-3",
+    "title": "Mobile Food Facility Permit",
+    "summary": "Get a permit for mobile food vehicles or carts.",
+    "source": "https://sfpublicworks.org/services/permits/mobile-food-facilities",
+    "level": "city",
+    "jurisdiction": {
+      "state": "CA",
+      "city": "San Francisco"
+    },
+    "conditions": {
+      "requiresFood": true
+    }
+  },
+  {
+    "id": "sf-food-manufacturing-4",
+    "title": "Food Manufacturing Business Guide",
+    "summary": "Follow steps for opening food and beverage manufacturing.",
+    "source": "https://www.sf.gov/guide-opening-food-and-beverage-manufacturing-business",
+    "level": "city",
+    "jurisdiction": {
+      "state": "CA",
+      "city": "San Francisco"
+    },
+    "conditions": {
+      "requiresFood": true
+    }
+  },
+  {
+    "id": "col-food-protection-1",
+    "title": "Food Protection Program License",
+    "summary": "License required for retail food businesses in Columbus.",
+    "source": "https://www.columbus.gov/Services/Food-Protection-Program",
+    "level": "city",
+    "jurisdiction": {
+      "state": "OH",
+      "city": "Columbus"
+    },
+    "conditions": {
+      "requiresFood": true
+    }
+  },
+  {
+    "id": "col-sign-permit-2",
+    "title": "Commercial Sign Permit",
+    "summary": "Obtain permit for signs per city code.",
+    "source": "https://www.columbus.gov/development/building-and-zoning/permits/sign-permits/",
+    "level": "city",
+    "jurisdiction": {
+      "state": "OH",
+      "city": "Columbus"
+    },
+    "conditions": {}
+  },
+  {
+    "id": "col-mobile-food-3",
+    "title": "Mobile Food Vending Ordinance",
+    "summary": "Comply with rules for mobile food on private property.",
+    "source": "https://www.municode.com/library/oh/columbus/codes/code_of_ordinances?nodeId=TIT5BURELICO_CH573MOFOVE",
+    "level": "city",
+    "jurisdiction": {
+      "state": "OH",
+      "city": "Columbus"
+    },
+    "conditions": {
+      "requiresFood": true
+    }
+  },
+  {
+    "id": "col-food-business-guide-4",
+    "title": "Starting Food Business Guide",
+    "summary": "Use guide for opening food businesses in Columbus.",
+    "source": "https://www.columbus.gov/files/sharedassets/city/v/2/public-health/startingafoodbusinessguide.pdf",
+    "level": "city",
+    "jurisdiction": {
+      "state": "OH",
+      "city": "Columbus"
+    },
+    "conditions": {
+      "requiresFood": true
+    }
+  },
+  {
+    "id": "clev-food-safety-1",
+    "title": "Food Safety Regulations",
+    "summary": "Comply with sanitation for outdoor dining and food service.",
+    "source": "https://www.clevelandhealth.org/programs/environment/food_safety/",
+    "level": "city",
+    "jurisdiction": {
+      "state": "OH",
+      "city": "Cleveland"
+    },
+    "conditions": {
+      "requiresFood": true
+    }
+  },
+  {
+    "id": "clev-mobile-food-2",
+    "title": "Mobile Food Shop Permit",
+    "summary": "Get a permit for vending food from mobile units.",
+    "source": "https://codelibrary.amlegal.com/codes/cleveland/latest/cleveland_oh/0-0-0-10093",
+    "level": "city",
+    "jurisdiction": {
+      "state": "OH",
+      "city": "Cleveland"
+    },
+    "conditions": {
+      "requiresFood": true
+    }
+  },
+  {
+    "id": "clev-vendor-permit-3",
+    "title": "Vendor Permit Guide",
+    "summary": "Follow compliance for vendor permits in Cleveland.",
+    "source": "https://www.clevelandohio.gov/city-hall/departments/finance/licenses-permits",
+    "level": "city",
+    "jurisdiction": {
+      "state": "OH",
+      "city": "Cleveland"
+    },
+    "conditions": {}
+  },
+  {
+    "id": "clev-food-handling-4",
+    "title": "Food Handling Rules",
+    "summary": "Adhere to rules for handling food in establishments.",
+    "source": "https://codelibrary.amlegal.com/codes/cleveland/latest/cleveland_oh/0-0-0-9853",
+    "level": "city",
+    "jurisdiction": {
+      "state": "OH",
+      "city": "Cleveland"
+    },
+    "conditions": {
+      "requiresFood": true
+    }
+  },
+  {
+    "id": "ny-tipped-wage-notice-1",
+    "title": "NY Tipped Wage & Tip Credit Notice",
+    "summary": "If you employ tipped workers, provide wage notice showing tip credit and maintain daily tip records.",
+    "source": "https://dol.ny.gov/wage-orders",
+    "level": "state",
+    "jurisdiction": {
+      "state": "NY",
+      "city": null
+    },
+    "conditions": {
+      "tippedWorkers": true,
+      "industry": ["Restaurant"]
+    }
+  },
+  {
+    "id": "ca-minors-work-permit-1",
+    "title": "CA Minor Work Permits & Hours Limits",
+    "summary": "If employing minors, obtain school work permits and follow hour limits and prohibited occupations.",
+    "source": "https://www.dir.ca.gov/dlse/DLSE-CL.htm",
+    "level": "state",
+    "jurisdiction": {
+      "state": "CA",
+      "city": null
+    },
+    "conditions": {
+      "employsMinors": true
+    }
+  },
+  {
+    "id": "fed-cdl-driver-qualification-1",
+    "title": "FMCSA Driver Qualification Files",
+    "summary": "Maintain driver qualification files and medical certifications for CDL drivers operating commercial motor vehicles.",
+    "source": "https://www.fmcsa.dot.gov/regulations/title49/b/5/3",
+    "level": "federal",
+    "jurisdiction": {
+      "state": null,
+      "city": null
+    },
+    "conditions": {
+      "commercialVehicles": true,
+      "hasCDLDrivers": true
+    }
+  },
+  {
+    "id": "ca-cpra-thresholds-1",
+    "title": "CPRA Applicability Thresholds",
+    "summary": "CPRA applies if you meet thresholds (revenue, # of consumers, or data sales/shares). Provide notices and rights requests flows.",
+    "source": "https://cppa.ca.gov/regulations/",
+    "level": "state",
+    "jurisdiction": {
+      "state": "CA",
+      "city": null
+    },
+    "conditions": {
+      "collectsFromCA": true,
+      "dataVolumeBand": [">=100k"]
+    }
+  },
+  {
+    "id": "ca-do-not-sell-share-1",
+    "title": "Do Not Sell/Share Personal Information Link",
+    "summary": "If you sell or share personal information of CA residents, provide a clear 'Do Not Sell or Share' link.",
+    "source": "https://oag.ca.gov/privacy/ccpa",
+    "level": "state",
+    "jurisdiction": {
+      "state": "CA",
+      "city": null
+    },
+    "conditions": {
+      "collectsFromCA": true,
+      "sellsOrSharesData": true
+    }
+  },
+  {
+    "id": "nyc-sla-ontap-training-1",
+    "title": "NYC Alcohol Server Training (ATAP)",
+    "summary": "Use an approved Alcohol Training Awareness Program (ATAP) for on-premise alcohol service.",
+    "source": "https://sla.ny.gov/atap-alcohol-training-awareness-program",
+    "level": "city",
+    "jurisdiction": {
+      "state": "NY",
+      "city": "New York City"
+    },
+    "conditions": {
+      "requiresAlcohol": true,
+      "alcoholSalesContext": ["on-premise"]
+    }
+  },
+  {
+    "id": "oh-cdl-signage-1",
+    "title": "Ohio Commercial Vehicle Signage & DOT Numbers",
+    "summary": "Ensure DOT numbers and required signage for commercial motor vehicles operating in Ohio.",
+    "source": "https://www.fmcsa.dot.gov/registration/do-i-need-usdot-number",
+    "level": "state",
+    "jurisdiction": {
+      "state": "OH",
+      "city": null
+    },
+    "conditions": {
+      "commercialVehicles": true
+    }
+  }
+]
