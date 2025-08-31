@@ -1,18 +1,21 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "main": "index.js",
+  "private": true,
+  "description": "Passcom rules API",
+  "main": "dist/index.js",
+  "engines": {
+    "node": "20.x",
+    "npm": ">=10"
+  },
   "scripts": {
     "dev": "tsx watch src/index.ts",
-    "db:migrate": "psql 'postgresql://neondb_owner:npg_WjdwRxbP13NT@ep-orange-silence-ad8mwyng-pooler.c-2.us-east-1.aws.neon.tech/neondb?sslmode=require' -f db/migrations/001_create_rules.sql",
-    "db:seed": "tsx scripts/seed.ts data/rules.json",
+    "build": "tsc -p tsconfig.json",
     "start": "node --enable-source-maps dist/index.js",
-    "build": "tsc -p tsconfig.json"
+    "db:migrate": "psql \"$DATABASE_URL\" -f db/migrations/001_create_rules.sql",
+    "db:seed": "tsx scripts/seed.ts data/rules.json",
+    "heroku-postbuild": "npm run build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "compression": "^1.8.1",
     "cors": "^2.8.5",
@@ -25,8 +28,12 @@
     "zod": "^4.1.5"
   },
   "devDependencies": {
+    "@types/compression": "^1.7.5",
+    "@types/cors": "^2.8.19",
     "@types/express": "^5.0.3",
+    "@types/morgan": "^1.9.10",
     "@types/node": "^24.3.0",
+    "@types/pg": "^8.15.5",
     "tsx": "^4.20.5",
     "typescript": "^5.9.2"
   }
