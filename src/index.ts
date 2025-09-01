@@ -25,10 +25,10 @@ app.use(compression());
 
 /** =========================
  *  CORS
- *  - allows prod from env FRONTEND_ORIGIN (recommended) or fallback
+ *  - allows prod from env FRONTEND_ORIGIN (or fallback)
  *  - allows all Vercel preview deploys (*.vercel.app)
  *  - allows local dev at http://localhost:3000
- *  - handles OPTIONS preflight (Express 5 safe: uses "(.*)" instead of "*")
+ *  - handles OPTIONS preflight using a REGEX (Express 5 safe)
  *  ========================= */
 const PROD_FALLBACK =
   process.env.FRONTEND_ORIGIN || "https://uscomplicance.vercel.app";
@@ -51,21 +51,21 @@ const corsOptions: cors.CorsOptions = {
       const host = new URL(origin).host;
       if (host.endsWith(".vercel.app")) return cb(null, true);
     } catch {
-      // ignore parse errors, then fall through to reject
+      /* ignore parse errors */
     }
 
     return cb(new Error("Not allowed by CORS"));
   },
   methods: ["GET", "POST", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
-  credentials: false, // set to true ONLY if you use cookies/auth across origins
+  credentials: false, // set true ONLY if you use cookies across origins
   maxAge: 86400,
 };
 
 // Apply CORS early
 app.use(cors(corsOptions));
-// Express 5-safe catch-all for preflight (avoid "*" which breaks path-to-regexp@6)
-app.options("(.*)", cors(corsOptions));
+// ✅ Express 5-safe catch-all for preflight (use REGEX, not "*" or "(.*)")
+app.options(/.*/, cors(corsOptions));
 
 /** Body parsing + JSON error guard */
 app.use(express.json({ limit: "1mb" }));
