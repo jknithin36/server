@@ -2,14 +2,16 @@
   "name": "server",
   "version": "1.0.0",
   "private": true,
-  "main": "dist/index.js",
+  "type": "module",
+  "main": "dist/src/index.js",
   "engines": {
-    "node": "20.x"
+    "node": "20.x",
+    "npm": ">=10.0.0"
   },
   "scripts": {
     "dev": "tsx watch src/index.ts",
     "build": "tsc -p tsconfig.json",
-    "start": "node --enable-source-maps dist/index.js",
+    "start": "node --enable-source-maps dist/src/index.js",
     "db:migrate": "psql \"$DATABASE_URL\" -f db/migrations/001_create_rules.sql",
     "db:seed": "tsx scripts/seed.ts data/rules.json"
   },
