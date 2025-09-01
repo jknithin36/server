@@ -2,7 +2,6 @@
   "name": "server",
   "version": "1.0.0",
   "private": true,
-  "description": "Passcom rules API",
   "main": "dist/index.js",
   "engines": {
     "node": "20.x",
@@ -13,8 +12,7 @@
     "build": "tsc -p tsconfig.json",
     "start": "node --enable-source-maps dist/index.js",
     "db:migrate": "psql \"$DATABASE_URL\" -f db/migrations/001_create_rules.sql",
-    "db:seed": "tsx scripts/seed.ts data/rules.json",
-    "heroku-postbuild": "npm run build"
+    "db:seed": "tsx scripts/seed.ts data/rules.json"
   },
   "dependencies": {
     "compression": "^1.8.1",
