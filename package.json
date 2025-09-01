@@ -2,11 +2,9 @@
   "name": "server",
   "version": "1.0.0",
   "private": true,
-  "type": "module",
   "main": "dist/src/index.js",
   "engines": {
-    "node": "20.x",
-    "npm": ">=10.0.0"
+    "node": "20.x"
   },
   "scripts": {
     "dev": "tsx watch src/index.ts",
